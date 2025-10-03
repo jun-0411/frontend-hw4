@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+}
+
+.topSection {
+  display: flex;
+  gap: var(--spacing-xxl);
+  margin-bottom: var(--spacing-xxl);
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: var(--border-radius-lg);
+  object-fit: cover;
+  background-color: var(--background-light);
+  flex-shrink: 0;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  margin-bottom: var(--spacing-sm);
+}
+
+.difficulty {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-left: var(--spacing-md);
+  font-size: var(--font-size-md);
+}
+
+.timeTotal {
+  font-weight: bold;
+  margin: var(--spacing-lg) 0;
+}
+
+.timeInfo {
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #555;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+}
+
+.section {
+  margin-bottom: var(--spacing-xxl);
+}
+
+.sectionTitle {
+  font-size: var(--font-size-lg);
+  margin: 0 0 var(--spacing-xl) 0;
+}
+
+.ingredientsBox {
+  background-color: var(--background-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  line-height: 1.6;
+}
+
+.instructionList {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.instructionItem {
+  margin-bottom: var(--spacing-md);
+}
+
+.infoList {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.infoItem {
+  margin-bottom: var(--spacing-md);
+}

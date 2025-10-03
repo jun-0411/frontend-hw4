@@ -1,0 +1,13 @@
+.container {
+  width: 70%;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+}
+
+.recipeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  gap: var(--spacing-xl);
+  justify-content: center;
+}
